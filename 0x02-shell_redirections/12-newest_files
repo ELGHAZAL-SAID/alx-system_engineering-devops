@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | ls -lfA | head
+find . -type f | ls -lfA | grep -r | head
