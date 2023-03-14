@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Al | awk '{print $9}' | sed -n '1~2p'
