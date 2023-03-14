@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Al | awk '{print $9}' | awk 'NR%2==1'
+ls -Al | awk 'NR%2==1'
