@@ -1,4 +1,5 @@
-exec { 'kill_pro_process':
-  command => '/usr/bin/pkill pro',
-  onlyif  => '/usr/bin/pgrep pro',
+#Kills a process named killmenow
+exec{'pkill -f killmenow':
+path  => '/usr/bin/:/usr/local/bin/:/bin/'
 }
+
